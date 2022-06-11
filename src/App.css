@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.content {
+  align-items: center;
+}
+
+.maze {
+  margin: auto;
+  margin-bottom: 10px;
+  border: 1px solid;
+  padding: 0;
+  width: fit-content;
+}
+
+.input{
+  margin: auto;
+  margin-bottom: 10px;
+  width: fit-content;
+  display: flex;
+  vertical-align: middle;
+} 
+
+.color_picker{
+  margin: auto;
+  margin-bottom: 10px;
+  width: fit-content;
+  display: flex;
+  vertical-align: middle;
+}
+
+.row {
+  display: flex;
+}
+
+.pixel {
+  width: 20px;
+  height: 20px;
+}
+
+.pixel_picker{
+  width: 20px;
+  height: 20px;
+  border: 1px solid;
+  margin: 25px;
+  margin-left: 0;
+}
+
+.test_field{
+  padding: 20px;
+}
+
+h4 {
+  margin: 20px;
+}
+
+.submit_button{
+  margin: 10px;
+}
